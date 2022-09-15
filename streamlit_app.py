@@ -36,7 +36,7 @@ streamlit.dataframe(fruityvice_normalized)
 
 # import snowflake.connector
 
-import snowflake.connector.python==3.10.7
+import snowflake.connector
 
 # my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 # my_cur = my_cnx.cursor()
